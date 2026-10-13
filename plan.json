@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:42",
+  "generatedAt": "2026-10-13T21:47",
   "accepting": false,
   "days": [
     {
@@ -271,7 +271,7 @@
               "typeLabel": "Клип",
               "what": "4–5 коротких советов куратора по одной теме",
               "deadline": "2026-10-15T14:00",
-              "status": "open",
+              "status": "ok",
               "files": 0
             }
           ]
