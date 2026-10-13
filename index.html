@@ -143,6 +143,18 @@ async function load() {
   render();
 }
 
+// Разделы идут по сроку сдачи: «Сегодня», «Срок — завтра», «Срок — 15.10, четверг»; прошедшие дни — «Срок был …»
+const isoLocal = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+function dayLabel(day) {
+  const now = new Date(), today = isoLocal(now);
+  const tm = new Date(now); tm.setDate(tm.getDate() + 1);
+  const wd = WEEK[new Date(day + "T12:00").getDay()];
+  if (day === today) return `Сегодня, ${fmtDay(day)}`;
+  if (day === isoLocal(tm)) return `Срок — завтра, ${fmtDay(day)}`;
+  if (day < today) return `Срок был ${fmtDay(day)}, ${wd}`;
+  return `Срок — ${fmtDay(day)}, ${wd}`;
+}
+
 function render() {
   const list = $("#list");
   if (!plan || !plan.days || !plan.days.length) { list.innerHTML = `<div class="empty">Заданий пока нет</div>`; return; }
@@ -160,7 +172,7 @@ function render() {
           ${t.status !== "open" ? `<span class="st ${t.status}">${ST[t.status]}</span>` : `<span class="st open">Сдать</span>`}
         </button>`).join("") + `</section>`;
     }
-    if (dayHtml) html += `<div class="dayh">${fmtDay(d.day)}, ${WEEK[new Date(d.day + "T12:00").getDay()]}</div>` + dayHtml;
+    if (dayHtml) html += `<div class="dayh">${dayLabel(d.day)}</div>` + dayHtml;
   }
   list.innerHTML = html || `<div class="empty">Не нашли такую фамилию. Проверь, как она написана.</div>`;
 }
