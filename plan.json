@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:37",
+  "generatedAt": "2026-10-13T21:42",
   "accepting": false,
   "days": [
     {
@@ -76,7 +76,7 @@
               "typeLabel": "Текст",
               "what": "Текст по итогам занятий",
               "deadline": "2026-10-13T18:30",
-              "status": "open",
+              "status": "miss",
               "files": 0
             }
           ]
@@ -103,7 +103,7 @@
               "typeLabel": "Фото",
               "what": "Фото со съёмки",
               "deadline": "2026-10-13T18:00",
-              "status": "open",
+              "status": "ok",
               "files": 0
             },
             {
@@ -114,7 +114,7 @@
               "typeLabel": "Текст",
               "what": "Текст по итогам занятий",
               "deadline": "2026-10-13T18:30",
-              "status": "open",
+              "status": "ok",
               "files": 0
             }
           ]
