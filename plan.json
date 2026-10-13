@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T18:16",
+  "generatedAt": "2026-10-13T21:21",
   "accepting": false,
   "days": [
     {
@@ -65,8 +65,8 @@
               "typeLabel": "Фото",
               "what": "Фото со съёмки",
               "deadline": "2026-10-13T18:00",
-              "status": "ok",
-              "files": 4
+              "status": "open",
+              "files": 0
             },
             {
               "id": "tmv5n7xck042679",
