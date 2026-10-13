@@ -1,0 +1,282 @@
+{
+  "generatedAt": "2026-10-13T18:16",
+  "accepting": false,
+  "days": [
+    {
+      "day": "2026-10-13",
+      "events": [
+        {
+          "title": "Лаборатория видеоподкастов (14:00–16:00, гостиная «Звёздного»)",
+          "tasks": [
+            {
+              "id": "tmv5n7xcb555956",
+              "who": "Буркова А.",
+              "team": "7",
+              "type": "stories",
+              "typeLabel": "Сторис",
+              "what": "Сторис с занятия",
+              "deadline": "2026-10-13T16:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcd321083",
+              "who": "Денисов М.",
+              "team": "7",
+              "type": "photo",
+              "typeLabel": "Фото",
+              "what": "Фото с занятия",
+              "deadline": "2026-10-13T18:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcf5c3977",
+              "who": "Беспоясная Н.",
+              "team": "7",
+              "type": "text",
+              "typeLabel": "Текст",
+              "what": "Текст по итогам занятий",
+              "deadline": "2026-10-13T18:30",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        },
+        {
+          "title": "Лаборатория видео (14:15 — съёмка, Дом гончара)",
+          "tasks": [
+            {
+              "id": "tmv5n7xci75d7a5",
+              "who": "Деревнина А.",
+              "team": "7",
+              "type": "stories",
+              "typeLabel": "Сторис",
+              "what": "Сторис со съёмки",
+              "deadline": "2026-10-13T16:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcj046284",
+              "who": "Сирик Н.",
+              "team": "6",
+              "type": "photo",
+              "typeLabel": "Фото",
+              "what": "Фото со съёмки",
+              "deadline": "2026-10-13T18:00",
+              "status": "ok",
+              "files": 4
+            },
+            {
+              "id": "tmv5n7xck042679",
+              "who": "Филатов И.",
+              "team": "7",
+              "type": "text",
+              "typeLabel": "Текст",
+              "what": "Текст по итогам занятий",
+              "deadline": "2026-10-13T18:30",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        },
+        {
+          "title": "Лаборатория фото (14:15 — съёмка, Дом космонавтики)",
+          "tasks": [
+            {
+              "id": "tmv5n7xcm21f67d",
+              "who": "Бородкина Д.",
+              "team": "6",
+              "type": "stories",
+              "typeLabel": "Сторис",
+              "what": "Сторис, можно фото с микротекстом",
+              "deadline": "2026-10-13T16:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcn6decb8",
+              "who": "Рогова В.",
+              "team": "7",
+              "type": "photo",
+              "typeLabel": "Фото",
+              "what": "Фото со съёмки",
+              "deadline": "2026-10-13T18:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xco8826cc",
+              "who": "Миненко И.",
+              "team": "7",
+              "type": "text",
+              "typeLabel": "Текст",
+              "what": "Текст по итогам занятий",
+              "deadline": "2026-10-13T18:30",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        },
+        {
+          "title": "Лаборатория ИИ (16:00–19:00, «Создаём историю»)",
+          "tasks": [
+            {
+              "id": "tmv5n7xcp2db387",
+              "who": "Гетманская С.",
+              "team": "7",
+              "type": "stories",
+              "typeLabel": "Сторис",
+              "what": "Сторис с занятия",
+              "deadline": "2026-10-13T18:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcqab3d19",
+              "who": "Моисеева В.",
+              "team": "6",
+              "type": "text",
+              "typeLabel": "Текст",
+              "what": "Текст по итогам занятий",
+              "deadline": "2026-10-13T18:30",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        },
+        {
+          "title": "Лаборатория текста (17:30 — интервью с героем РФ, библиотека, 1 этаж)",
+          "tasks": [
+            {
+              "id": "tmv5n7xcr28080e",
+              "who": "Болгова А.",
+              "team": "7",
+              "type": "stories",
+              "typeLabel": "Сторис",
+              "what": "Сторис с интервью",
+              "deadline": "2026-10-13T18:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcsd49b1d",
+              "who": "Кулешова С.",
+              "team": "6",
+              "type": "text",
+              "typeLabel": "Текст",
+              "what": "Текст по итогам занятий",
+              "deadline": "2026-10-13T18:30",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        },
+        {
+          "title": "Вертикальный репортажный клип с занятия видео",
+          "tasks": [
+            {
+              "id": "tmv5n7xcta96b72",
+              "who": "Сирик Н.",
+              "team": "6",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "Ведущий. К занятию прописать стендапы, закадр и вопросы спикеру про программу",
+              "deadline": "2026-10-13T14:00",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        },
+        {
+          "title": "Клип «Статик шотс „Орлёнка“»",
+          "tasks": [
+            {
+              "id": "tmv5n7xcw30b471",
+              "who": "Деревнина А.",
+              "team": "7",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "Клип «Статик шотс „Орлёнка“»",
+              "deadline": "2026-10-14T14:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcwbc8ae0",
+              "who": "Наникова С.",
+              "team": "7",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "Клип «Статик шотс „Орлёнка“»",
+              "deadline": "2026-10-14T14:00",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        },
+        {
+          "title": "Познавательный контент от кураторов",
+          "tasks": [
+            {
+              "id": "tmv5n7xcxdc19d1",
+              "who": "Деревнина А.",
+              "team": "7",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "4–5 коротких советов куратора по одной теме",
+              "deadline": "2026-10-15T14:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcx25a178",
+              "who": "Храмова В.",
+              "team": "7",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "4–5 коротких советов куратора по одной теме",
+              "deadline": "2026-10-15T14:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcya4abbb",
+              "who": "Григорьева М.",
+              "team": "7",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "4–5 коротких советов куратора по одной теме",
+              "deadline": "2026-10-15T14:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xcz2e4446",
+              "who": "Рогова В.",
+              "team": "7",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "4–5 коротких советов куратора по одной теме",
+              "deadline": "2026-10-15T14:00",
+              "status": "open",
+              "files": 0
+            },
+            {
+              "id": "tmv5n7xd0c9a3fb",
+              "who": "Фомичева Д.",
+              "team": "7",
+              "type": "video",
+              "typeLabel": "Клип",
+              "what": "4–5 коротких советов куратора по одной теме",
+              "deadline": "2026-10-15T14:00",
+              "status": "open",
+              "files": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
