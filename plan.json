@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:27",
+  "generatedAt": "2026-10-13T21:37",
   "accepting": false,
   "days": [
     {
@@ -16,7 +16,7 @@
               "typeLabel": "Сторис",
               "what": "Сторис с занятия",
               "deadline": "2026-10-13T16:00",
-              "status": "open",
+              "status": "late",
               "files": 0
             },
             {
@@ -27,7 +27,7 @@
               "typeLabel": "Фото",
               "what": "Фото с занятия",
               "deadline": "2026-10-13T18:00",
-              "status": "open",
+              "status": "ok",
               "files": 0
             },
             {
@@ -38,7 +38,7 @@
               "typeLabel": "Текст",
               "what": "Текст по итогам занятий",
               "deadline": "2026-10-13T18:30",
-              "status": "open",
+              "status": "ok",
               "files": 0
             }
           ]
@@ -54,7 +54,7 @@
               "typeLabel": "Сторис",
               "what": "Сторис со съёмки",
               "deadline": "2026-10-13T16:00",
-              "status": "open",
+              "status": "late",
               "files": 0
             },
             {
@@ -65,7 +65,7 @@
               "typeLabel": "Фото",
               "what": "Фото со съёмки",
               "deadline": "2026-10-13T18:00",
-              "status": "open",
+              "status": "ok",
               "files": 0
             },
             {
